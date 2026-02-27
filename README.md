@@ -1,16 +1,38 @@
-# React + Vite
+# Portfolio Maud de Visser
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dit is mijn portfolio ontwikkeld met React + Vite.  
+Hier toon ik mijn vaardigheden en projecten als CMGT-student.
 
-Currently, two official plugins are available:
+## Technologieën
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- Javascript
+- HTML
+- CSS / Tailwind
+- React Router
+- Git & Github
 
-## React Compiler
+## Wat heb ik geleerd?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Werken met React routes
+- ??
 
-## Expanding the ESLint configuration
+## Installatie
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone de repository
+2. Installeer dependencies
+3. npm install
+4. Start development server
+5. npm run dev
+
+## Toekomstige verbetering
+
+- ??
+
+## Auteur
+
+Maud de Visser  
+CMGT-student  
+LinkedIn:  
+Github: https://github.com/Bakkerbout
