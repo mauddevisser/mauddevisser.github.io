@@ -23,7 +23,7 @@ function Home() {
                     <div className="box profile-pic shadow-lg">
                         <img src='/mauddevisser.png' alt="Maud de Visser"/>
                     </div>
-                    <Link to={'/'} className="box contact-button shadow-lg no-underline">
+                    <Link to={'/Contact'} className="box contact-button shadow-lg no-underline">
                         <span className="text-3xl text-[#F4EEED]">Contact</span>
                         <span className="absolute top-1 right-4 text-5xl">↗</span>
                     </Link>
@@ -49,6 +49,7 @@ function Home() {
 
                     <div className="flex-1 experience text-[#1C352D] rounded-l-3xl p-7">
                         <div className="ml-20">
+                            <h3 className="text-4xl font-bold mb-8">Educatie</h3>
                             <TimelineItem
                                 title="Hogeschool Rotterdam"
                                 role="Creative Media and Game Technologies"
@@ -67,6 +68,7 @@ function Home() {
                     <div
                         className="flex-1 experience rounded-r-3xl text-[#1C352D] p-7">
                         <div className="ml-20">
+                            <h3 className="text-4xl font-bold mb-8">Werkervaring</h3>
                             <TimelineItem
                                 title="Jumbo"
                                 role="Vulploeg Medewerker"
@@ -77,11 +79,25 @@ function Home() {
                                 period="Jun 2024 | Dec 2025"
                                 isLast/>
                         </div>
-                        <img src='/flower.png' alt="Flower" className="w-52 h-auto object-contain ml-110 -mt-80"/>
+                        <img src='/flower.png' alt="Flower" className="w-52 h-auto object-contain ml-110 -mt-96"/>
                     </div>
                 </div>
             </div>
             <ScrollArrows/>
+            <h3 className="text-4xl text-center mt-26 text-[#1C352D] font-bold mb-8">Projecten</h3>
+            <div className="flex flex-row mb-16 justify-between">
+                <Link to={'/'}>
+                    <img src='/jokerout.png' alt="Joker Out Fan page"
+                         className="w-100 h-auto rounded-2xl object-contain"/>
+                </Link>
+                <Link to={'/'}>
+                    <img src='/swimrecords.png' alt="Swimrecords" className="w-100 h-auto rounded-2xl object-contain "/>
+                </Link>
+                <Link to={'/'}>
+                    <img src='/songfestival.png' alt="Songfestival artists"
+                         className="w-100 h-auto rounded-2xl object-contain"/>
+                </Link>
+            </div>
         </>
     );
 }

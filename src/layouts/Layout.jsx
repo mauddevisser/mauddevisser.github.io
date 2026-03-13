@@ -1,26 +1,41 @@
 import {Link, Outlet} from "react-router";
+import {useState, useEffect} from "react";
 
 function Layout() {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 10);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
     return (
         <div className="flex flex-col min-h-screen bg-[#F4EEED]">
-            <header className="w-full pt-6 px-6 flex justify-center">
+            <header className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+                isScrolled
+                    ? "70 backdrop-blur-md pt-6 py-1"
+                    : "bg-transparent py-6"}`}>
                 <nav
-                    className="flex justify-between items-center bg-[#DFB5A6] px-10 py-5 rounded-2xl shadow-lg max-w-7xl mx-auto w-full">
+                    className={`flex justify-between items-center bg-[#DFB5A6] px-10 py-5 rounded-2xl max-w-7xl mx-auto w-full transition-all duration-300 ${
+                        isScrolled ? "shadow-xl" : "shadow-lg"}`}>
                     <div className="flex">
-                        <Link to={'/'}
-                              className="text-[#1A2E26] text-2xl hover:opacity-70 font-bold rounded-lg">Maud
-                            de Visser</Link>
+                        <Link to={'/'} className="text-[#1A2E26] text-2xl hover:opacity-70 font-bold">
+                            Maud de Visser
+                        </Link>
                     </div>
                     <div className="flex gap-12">
-                        <Link to={'/'}
+                        <Link to={'/Projects'}
                               className="text-[#1A2E26] text-xl font-bold hover:opacity-70 transition-opacity">
                             Projecten
                         </Link>
-                        <Link to={'/'}
+                        <Link to={'/AboutMe'}
                               className="text-[#1A2E26] text-xl font-bold hover:opacity-70 transition-opacity">
                             Over mij
                         </Link>
-                        <Link to={'/'}
+                        <Link to={'/Contact'}
                               className="text-[#1A2E26] text-xl font-bold hover:opacity-70 transition-opacity">
                             Contact
                         </Link>
