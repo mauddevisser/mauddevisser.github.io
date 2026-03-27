@@ -84,7 +84,7 @@ function Home() {
                 </div>
             </div>
             <ScrollArrows/>
-            <h3 className="text-4xl text-center mt-26 text-[#1C352D] font-bold mb-8">Projecten</h3>
+            <h3 className="text-4xl text-center mt-26 text-[#1C352D] font-bold mb-8">sssss</h3>
             <div className="flex flex-row mb-16 justify-between">
                 <Link to={'/'}>
                     <img src='/jokerout.png' alt="Joker Out Fan page"
