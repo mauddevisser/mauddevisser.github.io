@@ -3,6 +3,9 @@ import Layout from "./layouts/Layout.jsx";
 import Home from "./Home.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
 import Projects from "./pages/Projects.jsx";
+import SongfestivalArtists from "./projects/songfestivalartists.jsx";
+import SwimRecords from "./projects/swimrecords.jsx";
+import JokerOut from "./projects/jokerout.jsx";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
             {
                 path: '/AboutMe',
                 element: <AboutMe/>
+            },
+            {
+                path: '/JokerOut',
+                element: <JokerOut/>
+            },
+            {
+                path: '/SwimRecords',
+                element: <SwimRecords/>
+            },
+            {
+                path: '/SongfestivalArtists',
+                element: <SongfestivalArtists/>
             },
             {
                 path: '*',

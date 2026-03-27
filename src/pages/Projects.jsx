@@ -3,18 +3,21 @@ import {Link} from "react-router";
 function Projects() {
     return (
         <>
-            <h3 className="text-4xl text-center text-[#1C352D] font-bold mb-8">Projecten</h3>
+            <h1 className="text-4xl text-center text-[#1C352D] font-bold mb-10">Projecten</h1>
             <div className="flex flex-row justify-between">
-                <Link to={'/'}>
+                <Link to={'/JokerOut'}>
                     <img src='/jokerout.png' alt="Joker Out Fan page"
                          className="w-100 h-auto rounded-2xl object-contain"/>
+                    <h2 className="italic text-center mt-2 text-lg text-[#1C352D]">Joker Out Fanpage</h2>
                 </Link>
-                <Link to={'/'}>
+                <Link to={'/SwimRecords'}>
                     <img src='/swimrecords.png' alt="Swimrecords" className="w-100 h-auto rounded-2xl object-contain "/>
+                    <h2 className="italic text-center mt-2 text-lg text-[#1C352D]">Swim Records</h2>
                 </Link>
-                <Link to={'/'}>
+                <Link to={'/SongfestivalArtists'}>
                     <img src='/songfestival.png' alt="Songfestival artists"
                          className="w-100 h-auto rounded-2xl object-contain"/>
+                    <h2 className="italic text-center mt-2 text-lg text-[#1C352D]">Songfestival Artists</h2>
                 </Link>
             </div>
         </>
