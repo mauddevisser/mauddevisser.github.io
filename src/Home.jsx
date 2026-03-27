@@ -24,7 +24,7 @@ function Home() {
                         <img src='/mauddevisser.png' alt="Maud de Visser"/>
                     </div>
                     <Link to={'/projects'} className="box contact-button shadow-lg no-underline">
-                        <span className="text-3xl text-[#F4EEED]">Projecten</span>
+                        <span className="text-3xl">Projecten</span>
                         <span className="absolute top-1 right-4 text-5xl">↗</span>
                     </Link>
                 </div>
@@ -86,14 +86,14 @@ function Home() {
             <ScrollArrows/>
             <h3 className="text-4xl text-center mt-26 text-[#1C352D] font-bold mb-8">Projecten</h3>
             <div className="flex flex-row mb-16 justify-between">
-                <Link to={'/'}>
+                <Link to={'/JokerOut'}>
                     <img src='/jokerout.png' alt="Joker Out Fan page"
                          className="w-100 h-auto rounded-2xl object-contain"/>
                 </Link>
-                <Link to={'/'}>
+                <Link to={'/SwimRecords'}>
                     <img src='/swimrecords.png' alt="Swimrecords" className="w-100 h-auto rounded-2xl object-contain "/>
                 </Link>
-                <Link to={'/'}>
+                <Link to={'/SongfestivalArtists'}>
                     <img src='/songfestival.png' alt="Songfestival artists"
                          className="w-100 h-auto rounded-2xl object-contain"/>
                 </Link>
