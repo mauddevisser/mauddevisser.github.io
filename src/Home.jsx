@@ -23,8 +23,8 @@ function Home() {
                     <div className="box profile-pic shadow-lg">
                         <img src='/mauddevisser.png' alt="Maud de Visser"/>
                     </div>
-                    <Link to={'/Contact'} className="box contact-button shadow-lg no-underline">
-                        <span className="text-3xl text-[#F4EEED]">Contact</span>
+                    <Link to={'/projects'} className="box contact-button shadow-lg no-underline">
+                        <span className="text-3xl text-[#F4EEED]">Projecten</span>
                         <span className="absolute top-1 right-4 text-5xl">↗</span>
                     </Link>
                 </div>
