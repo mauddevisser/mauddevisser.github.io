@@ -71,12 +71,32 @@
     position: relative;
 }
 
+.aboutme-row {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 25px;
+}
+
+.aboutme, .skills {
+    grid-column: auto;
+    width: 100%;
+}
+
+.aboutme {
+    background-color: #95977A;
+}
+
+.skills {
+    background-color: #445A4D;
+    color: #F4EEED;
+}
+
 .experience {
     background-color: #95977A;
     margin-top: 110px;
     margin-bottom: 50px;
 }
-
 
 :root {
     --base: 0.6rem;
