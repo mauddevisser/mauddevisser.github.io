@@ -3,8 +3,8 @@ import {Link} from "react-router";
 function Projects() {
     return (
         <>
-            <h1 className="text-4xl text-center text-[#1C352D] font-bold mb-10">Projecten</h1>
-            <div className="flex flex-row justify-between">
+            <h1 className="text-4xl text-center text-[#1C352D] font-bold mb-6 md:mb-10">Projecten</h1>
+            <div className="flex flex-col md:flex-row mb-8 gap-10 md:gap-0 justify-between">
                 <Link to={'/JokerOut'}>
                     <img src='/jokerout.png' alt="Joker Out Fan page"
                          className="w-100 h-auto rounded-2xl object-contain"/>
