@@ -70,16 +70,16 @@ function SwimRecords() {
                     <div className="space-y-4">
                         <div>
                             <span className="font-semibold block text-[#1C352D]">Github Frontend:</span>
-                            <Link to="https://github.com/Bakkerbout/swimrecords-frontend.git"
+                            <Link to="https://github.com/mauddevisser/swimrecords-frontend.git"
                                   className="text-[#1C352D] underline break-all hover:text-[#35463b] transition-colors">
-                                https://github.com/Bakkerbout/swimrecords-frontend.git
+                                https://github.com/mauddevisser/swimrecords-frontend.git
                             </Link>
                         </div>
                         <div>
                             <span className="font-semibold block text-[#1C352D]">Github Backend:</span>
-                            <Link to="https://github.com/Bakkerbout/swimrecords-backend.git"
+                            <Link to="https://github.com/mauddevisser/swimrecords-backend.git"
                                   className="text-[#1C352D] underline break-all hover:text-[#35463b] transition-colors">
-                                https://github.com/Bakkerbout/swimrecords-backend.git
+                                https://github.com/mauddevisser/swimrecords-backend.git
                             </Link>
                         </div>
                     </div>

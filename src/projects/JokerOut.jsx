@@ -64,9 +64,9 @@ function JokerOut() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                         <span className="font-semibold block">Github Repository:</span>
-                        <Link to="https://github.com/Bakkerbout/frontend-development.git"
+                        <Link to="https://github.com/mauddevisser/frontend-development.git"
                               className="underline break-all hover:text-[#35463b] transition-colors">
-                            https://github.com/Bakkerbout/frontend-development.git
+                            https://github.com/mauddevisser/frontend-development.git
                         </Link>
                     </div>
                     <div className="text-[#1C352D]">

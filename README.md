@@ -33,6 +33,6 @@ Hier toon ik mijn vaardigheden en projecten als CMGT-student.
 ## Auteur
 
 Maud de Visser  
-CMGT-student  
+CMGT-student
 LinkedIn: www.linkedin.com/in/maud-de-visser-198ba43b3
-Github: https://github.com/Bakkerbout
+Github: https://github.com/mauddevisser

@@ -64,9 +64,9 @@ function SongfestivalArtists() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                         <span className="font-semibold block text-[#1C352D]">Github Repository:</span>
-                        <Link to="https://github.com/Bakkerbout/songfestival-artists.git"
+                        <Link to="https://github.com/mauddevisser/songfestival-artists.git"
                               className="text-[#1C352D] underline break-all hover:text-[#35463b] transition-colors">
-                            https://github.com/Bakkerbout/songfestival-artists.git
+                            https://github.com/mauddevisser/songfestival-artists.git
                         </Link>
                     </div>
                     <div className="text-[#1C352D]">
