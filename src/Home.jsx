@@ -9,7 +9,7 @@ function Home() {
                 <div className="box intro shadow-lg overflow-hidden relative">
                     <div className="text-left z-10 relative">
                         <h1 className="text-xl md:text-4xl font-semibold text-[#1C352D] leading-tight mb-1">Hallo
-                            ik ben Maud</h1>
+                            ik ben Maud TEST</h1>
                         <h2 className="text-xl md:text-4xl font-semibold text-[#1C352D] leading-tight">Ik ben
                             leergierig en vastberaden</h2>
                     </div>
