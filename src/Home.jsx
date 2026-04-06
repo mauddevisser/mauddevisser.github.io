@@ -14,7 +14,7 @@ function Home() {
                             leergierig en vastberaden</h2>
                     </div>
                     <img src='/flower.png' alt="Flower"
-                         className="absolute bottom-[1px] right-[-20px] opacity-75 md:opacity-100 w-25 md:w-52 h-auto object-contain md:relative md:-mt-18 md:-mr-18"/>
+                         className="absolute bottom-[px] -right-5 opacity-75 md:opacity-100 w-25 md:w-52 h-auto object-contain md:relative md:-mt-18 md:-mr-18"/>
                 </div>
                 <div className="box description shadow-lg">
                     <p className="text-[#1C352D] text-base md:text-xl leading-relaxed">
@@ -36,7 +36,7 @@ function Home() {
 
             <div className="flex justify-between text-sm font-medium">
                 <div
-                    className="relative w-full max-w-[1600px] mx-auto drop-shadow-md grid grid-cols-1 md:grid-cols-2 text-sm font-medium rounded-3xl overflow-hidden">
+                    className="relative w-full max-w-400 mx-auto drop-shadow-md grid grid-cols-1 md:grid-cols-2 text-sm font-medium rounded-3xl overflow-hidden">
                     <div className="absolute inset-0 hidden md:flex justify-center pointer-events-none py-13 mt-13">
                         <svg
                             viewBox="0 0 100 500"
@@ -88,7 +88,7 @@ function Home() {
                                 detail="Als all-round medewerker deed ik van alles: van de kassa en de catering tot het netjes houden van de speelhal."
                                 isLast/>
                         </div>
-                        <img src='/f1car.png' alt="F1 Car"
+                        <img src='/star.png' alt="F1 Car"
                              className="hidden md:block w-40 opacity-90 h-auto object-contain ml-110 -mt-120"/>
                     </div>
                 </div>
