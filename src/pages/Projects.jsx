@@ -2,12 +2,11 @@ import ProjectCardItem from "../../components/ProjectCardItem.jsx";
 
 function Projects() {
     return (
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="w-full">
             <h1 className="text-4xl text-center text-[#1C352D] font-bold mb-6 md:mb-10">
                 Projecten
             </h1>
-
-            <div className="flex flex-col md:flex-row gap-8 mb-4 md:mb-0 justify-center">
+            <div className="flex flex-col md:flex-row gap-8 mb-4 md:mb-0 w-full">
                 <ProjectCardItem
                     to="/SwimRecords"
                     img="/swimrecords.png"

@@ -14,7 +14,7 @@ function Home() {
                             leergierig en vastberaden</h2>
                     </div>
                     <img src='/flower.png' alt="Flower"
-                         className="absolute bottom-[px] -right-5 opacity-75 md:opacity-100 w-25 md:w-52 h-auto object-contain md:relative md:-mt-18 md:-mr-18"/>
+                         className="absolute bottom-[px] -right-5 opacity-75 md:opacity-100 w-25 md:w-52 h-auto object-contain md:relative md:-mt-18 md:-mr-16"/>
                 </div>
                 <div className="box description shadow-lg">
                     <p className="text-[#1C352D] text-base md:text-xl leading-relaxed">
@@ -36,12 +36,13 @@ function Home() {
 
             <div className="flex justify-between text-sm font-medium">
                 <div
-                    className="relative w-full max-w-400 mx-auto drop-shadow-md grid grid-cols-1 md:grid-cols-2 text-sm font-medium rounded-3xl overflow-hidden">
-                    <div className="absolute inset-0 hidden md:flex justify-center pointer-events-none py-13 mt-13">
+                    className="relative w-full max-w-none mx-auto drop-shadow-md grid grid-cols-1 md:grid-cols-2 text-sm font-medium rounded-3xl overflow-hidden">
+                    <div
+                        className="absolute inset-x-0 top-25 bottom-13 hidden md:flex justify-center pointer-events-none overflow-hidden">
                         <svg
                             viewBox="0 0 100 500"
                             preserveAspectRatio="none"
-                            className="h-full w-34 opacity-30 text-[#1C352D] "
+                            className="h-full w-34 opacity-30 z-50 text-[#1C352D]"
                             fill="none"
                             stroke="currentColor"
                             strokeWidth="2">
@@ -53,12 +54,14 @@ function Home() {
                         className="flex-1 education text-[#1C352D] rounded-3xl md:rounded-r-none md:rounded-l-3xl p-7">
                         <div className="ml-0 md:ml-20">
                             <h3 className="text-3xl md:text-4xl font-bold mb-5 md:mb-8">Educatie</h3>
-                            <TimelineItem
-                                title="Hogeschool Rotterdam"
-                                role="Creative Media and Game Technologies"
-                                period="Sep 2024 | Heden"
-                                detail="Creatieve concepten tot leven brengen met code en design."
-                            />
+                            <div className="md:min-h-55">
+                                <TimelineItem
+                                    title="Hogeschool Rotterdam"
+                                    role="Creative Media and Game Technologies"
+                                    period="Sep 2024 | Heden"
+                                    detail="Creatieve concepten tot leven brengen met code en design."
+                                />
+                            </div>
                             <TimelineItem
                                 title="ISW Gasthuislaan"
                                 role="Havo"
@@ -68,19 +71,21 @@ function Home() {
                         </div>
                         <div>
                             <img src='/flower.png' alt="Flower"
-                                 className="hidden md:block w-40 h-auto object-contain -ml-14 -mt-20"/>
+                                 className="hidden md:block w-40 h-auto object-contain -ml-14 -mt-12"/>
                         </div>
                     </div>
                     <div
-                        className="flex-1 experience rounded-3xl md:rounded-l-none md:rounded-r-3xl text-[#1C352D] p-7">
+                        className="flex-1 experience relative rounded-3xl md:rounded-l-none md:rounded-r-3xl text-[#1C352D] p-7">
                         <div className="ml-0 md:ml-20">
                             <h3 className="text-3xl md:text-4xl font-bold mb-5 md:mb-8">Werkervaring</h3>
-                            <TimelineItem
-                                title="Jumbo"
-                                role="Vulploeg Medewerker"
-                                period="Jul 2022 | Heden"
-                                detail="Naast het vullen van de vakken werk ik nieuwe teamleden in, zodat ze snel hun weg vinden."
-                            />
+                            <div className="md:min-h-55">
+                                <TimelineItem
+                                    title="Jumbo"
+                                    role="Vulploeg Medewerker"
+                                    period="Jul 2022 | Heden"
+                                    detail="Naast het vullen van de vakken werk ik nieuwe teamleden in, zodat ze snel hun weg vinden."
+                                />
+                            </div>
                             <TimelineItem
                                 title="Ballorig"
                                 role="All-Round Medewerker"
@@ -88,8 +93,8 @@ function Home() {
                                 detail="Als all-round medewerker deed ik van alles: van de kassa en de catering tot het netjes houden van de speelhal."
                                 isLast/>
                         </div>
-                        <img src='/star.png' alt="F1 Car"
-                             className="hidden md:block w-40 opacity-90 h-auto object-contain ml-110 -mt-120"/>
+                        <img src='/star.png' alt="Star"
+                             className="hidden md:block absolute top-4 right-4 w-32 lg:w-40 opacity-90 h-auto object-contain pointer-events-none"/>
                     </div>
                 </div>
             </div>
@@ -121,7 +126,7 @@ function Home() {
                 </Link>
             </div>
             <Link to={'/Projects'} className="box moreprojects-button shadow-lg no-underline">
-                <span className="text-lg md:text-xl font-bold">Meer Bekijken</span>
+                <span className="text-lg text-center md:text-xl font-bold">Meer Bekijken</span>
             </Link>
         </>
     );

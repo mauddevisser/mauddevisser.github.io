@@ -18,7 +18,7 @@ function JokerOut() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-10">
-                <div className="rounded-2xl overflow-hidden mt-3 shadow-2xl">
+                <div className="rounded-2xl overflow-hidden shadow-2xl">
                     <video
                         src='/jokeroutvideo.mp4'
                         autoPlay

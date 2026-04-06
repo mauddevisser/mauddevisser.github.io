@@ -15,7 +15,7 @@ function Layout() {
     return (
         <div className="flex flex-col min-h-screen bg-[#F4EEED]">
             <header className={`relative md:fixed top-0 z-50 w-full transition-all duration-300 md:pt-6`}>
-                <div className="max-w-[1600px] mx-auto md:px-10">
+                <div className="max-w-none mx-auto md:px-10">
                     <nav
                         className={`flex flex-col md:flex-row justify-between items-center bg-[#DFB5A6] md:px-10 py-6 md:py-5 md:rounded-2xl transition-all duration-300 ${
                             isScrolled ? "shadow-xl backdrop-blur-md bg-[#DFB5A6]/90" : "shadow-lg"}`}>
@@ -38,7 +38,7 @@ function Layout() {
                     </nav>
                 </div>
             </header>
-            <main className="w-full max-w-[1600px] mx-auto px-4 md:px-10 mt-6 md:mt-38 flex-grow">
+            <main className="w-full max-w-none mx-auto px-4 md:px-10 mt-6 md:mt-38 grow">
                 <Outlet/>
             </main>
             <footer className="bg-[#DFB5A6] py-2 text-center text-[#1A2E26]">
